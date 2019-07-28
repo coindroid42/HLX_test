@@ -28,7 +28,7 @@
 #if DASH_TESTNET
 #define DASH_MAGIC_NUMBER 0xffcae2ce
 #else
-#define DASH_MAGIC_NUMBER 0xbd6b0cbf
+#define DASH_MAGIC_NUMBER 0xa9c173f1
 #endif
 
 CF_IMPLICIT_BRIDGING_ENABLED

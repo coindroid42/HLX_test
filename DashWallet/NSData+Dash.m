@@ -24,17 +24,27 @@
 //  THE SOFTWARE.
 
 #import "NSData+Dash.h"
-#import "Blake.c"
-#import "Bmw.c"
-#import "CubeHash.c"
-#import "Groestl.c"
-#import "Echo.c"
-#import "Jh.c"
-#import "Keccak.c"
-#import "Luffa.c"
-#import "Shavite.c"
-#import "Simd.c"
-#import "Skein.c"
+
+
+#import <stdlib.h>
+#import <string.h>
+#import <assert.h>
+
+#import "crypto/sph_blake.h"
+#import "crypto/sph_bmw.h"
+#import "crypto/sph_groestl.h"
+#import "crypto/sph_jh.h"
+#import "crypto/sph_keccak.h"
+#import "crypto/sph_skein.h"
+#import "crypto/sph_luffa.h"
+#import "crypto/sph_cubehash.h"
+#import "crypto/sph_shavite.h"
+#import "crypto/sph_simd.h"
+#import "crypto/sph_echo.h"
+#import "crypto/sph_hamsi.h"
+#import "crypto/sph_fugue.h"
+#import "crypto/sph_shabal.h"
+#import "crypto/sph_whirlpool.h"
 
 @implementation NSData (Dash)
 
@@ -205,7 +215,7 @@ sph_echo512(&ctx_echo, self.bytes, self.length);
     sph_echo_big_context ctx_echo;
     sph_echo512_init(&ctx_echo);
     sph_echo512(&ctx_echo, &x11Data, 64);
-    echo_big_close(&ctx_echo, 0,0,&rData,16);
+    sph_echo512_close(&ctx_echo, &x11Data);
     
 
     return rData;

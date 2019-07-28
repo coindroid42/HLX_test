@@ -3,10 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18D4C6A9228FE4EC004D9360 /* sph_shabal.c in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C673228FE4C5004D9360 /* sph_shabal.c */; };
+		18D4C6AA228FE4EC004D9360 /* hmac_sha512.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C674228FE4C6004D9360 /* hmac_sha512.cpp */; };
+		18D4C6AB228FE4EC004D9360 /* sha512.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C675228FE4C7004D9360 /* sha512.cpp */; };
+		18D4C6AC228FE4EC004D9360 /* sph_hamsi_helper.c in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C678228FE4C9004D9360 /* sph_hamsi_helper.c */; };
+		18D4C6AD228FE4EC004D9360 /* sph_hamsi.c in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C67C228FE4CB004D9360 /* sph_hamsi.c */; };
+		18D4C6AE228FE4EC004D9360 /* jh.c in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C67D228FE4CC004D9360 /* jh.c */; };
+		18D4C6AF228FE4EC004D9360 /* cubehash.c in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C67E228FE4CD004D9360 /* cubehash.c */; };
+		18D4C6B0228FE4EC004D9360 /* aes_helper.c in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C67F228FE4CD004D9360 /* aes_helper.c */; };
+		18D4C6B1228FE4EC004D9360 /* echo.c in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C681228FE4CE004D9360 /* echo.c */; };
+		18D4C6B2228FE4EC004D9360 /* ripemd160.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C682228FE4CF004D9360 /* ripemd160.cpp */; };
+		18D4C6B3228FE4EC004D9360 /* sph_sha512.c in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C683228FE4CF004D9360 /* sph_sha512.c */; };
+		18D4C6B4228FE4EC004D9360 /* groestl.c in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C684228FE4D0004D9360 /* groestl.c */; };
+		18D4C6B5228FE4EC004D9360 /* sha1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C685228FE4D1004D9360 /* sha1.cpp */; };
+		18D4C6B6228FE4EC004D9360 /* sph_fugue.c in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C688228FE4D2004D9360 /* sph_fugue.c */; };
+		18D4C6B7228FE4EC004D9360 /* skein.c in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C689228FE4D3004D9360 /* skein.c */; };
+		18D4C6B8228FE4EC004D9360 /* hmac_sha256.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C68A228FE4D3004D9360 /* hmac_sha256.cpp */; };
+		18D4C6B9228FE4EC004D9360 /* sph_sha2.c in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C68D228FE4D5004D9360 /* sph_sha2.c */; };
+		18D4C6BA228FE4EC004D9360 /* chacha20.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C68E228FE4D6004D9360 /* chacha20.cpp */; };
+		18D4C6BB228FE4EC004D9360 /* sha256.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C68F228FE4D6004D9360 /* sha256.cpp */; };
+		18D4C6BC228FE4EC004D9360 /* simd.c in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C690228FE4D7004D9360 /* simd.c */; };
+		18D4C6BD228FE4EC004D9360 /* aes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C693228FE4D9004D9360 /* aes.cpp */; };
+		18D4C6BE228FE4EC004D9360 /* blake.c in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C698228FE4DC004D9360 /* blake.c */; };
+		18D4C6BF228FE4EC004D9360 /* bmw.c in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C699228FE4DD004D9360 /* bmw.c */; };
+		18D4C6C0228FE4EC004D9360 /* sph_whirlpool.c in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C69D228FE4E0004D9360 /* sph_whirlpool.c */; };
+		18D4C6C1228FE4EC004D9360 /* luffa.c in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C69F228FE4E2004D9360 /* luffa.c */; };
+		18D4C6C2228FE4EC004D9360 /* keccak.c in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C6A1228FE4E5004D9360 /* keccak.c */; };
+		18D4C6C3228FE4EC004D9360 /* shavite.c in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C6A7228FE4EB004D9360 /* shavite.c */; };
+		18D4C6C4228FE4EC004D9360 /* sha256_sse4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C6A8228FE4EC004D9360 /* sha256_sse4.cpp */; };
 		220128D31C753C670001CAC1 /* BRSocketHelpers.c in Sources */ = {isa = PBXBuildFile; fileRef = 220128D11C753C670001CAC1 /* BRSocketHelpers.c */; };
 		2204604E1B9F61E600D07B61 /* BREventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2204604D1B9F61E600D07B61 /* BREventManager.m */; };
 		2204604F1B9F61E600D07B61 /* BREventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2204604D1B9F61E600D07B61 /* BREventManager.m */; };
@@ -271,6 +299,60 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		18D4C673228FE4C5004D9360 /* sph_shabal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sph_shabal.c; sourceTree = "<group>"; };
+		18D4C674228FE4C6004D9360 /* hmac_sha512.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hmac_sha512.cpp; sourceTree = "<group>"; };
+		18D4C675228FE4C7004D9360 /* sha512.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sha512.cpp; sourceTree = "<group>"; };
+		18D4C676228FE4C7004D9360 /* sph_hamsi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_hamsi.h; sourceTree = "<group>"; };
+		18D4C677228FE4C8004D9360 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		18D4C678228FE4C9004D9360 /* sph_hamsi_helper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sph_hamsi_helper.c; sourceTree = "<group>"; };
+		18D4C679228FE4CA004D9360 /* sph_jh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_jh.h; sourceTree = "<group>"; };
+		18D4C67A228FE4CA004D9360 /* sph_skein.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_skein.h; sourceTree = "<group>"; };
+		18D4C67B228FE4CB004D9360 /* sph_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_types.h; sourceTree = "<group>"; };
+		18D4C67C228FE4CB004D9360 /* sph_hamsi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sph_hamsi.c; sourceTree = "<group>"; };
+		18D4C67D228FE4CC004D9360 /* jh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = jh.c; sourceTree = "<group>"; };
+		18D4C67E228FE4CD004D9360 /* cubehash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cubehash.c; sourceTree = "<group>"; };
+		18D4C67F228FE4CD004D9360 /* aes_helper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aes_helper.c; sourceTree = "<group>"; };
+		18D4C680228FE4CE004D9360 /* hmac_sha512.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac_sha512.h; sourceTree = "<group>"; };
+		18D4C681228FE4CE004D9360 /* echo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = echo.c; sourceTree = "<group>"; };
+		18D4C682228FE4CF004D9360 /* ripemd160.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ripemd160.cpp; sourceTree = "<group>"; };
+		18D4C683228FE4CF004D9360 /* sph_sha512.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sph_sha512.c; sourceTree = "<group>"; };
+		18D4C684228FE4D0004D9360 /* groestl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = groestl.c; sourceTree = "<group>"; };
+		18D4C685228FE4D1004D9360 /* sha1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sha1.cpp; sourceTree = "<group>"; };
+		18D4C686228FE4D1004D9360 /* sph_sha2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_sha2.h; sourceTree = "<group>"; };
+		18D4C687228FE4D2004D9360 /* sph_cubehash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_cubehash.h; sourceTree = "<group>"; };
+		18D4C688228FE4D2004D9360 /* sph_fugue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sph_fugue.c; sourceTree = "<group>"; };
+		18D4C689228FE4D3004D9360 /* skein.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = skein.c; sourceTree = "<group>"; };
+		18D4C68A228FE4D3004D9360 /* hmac_sha256.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hmac_sha256.cpp; sourceTree = "<group>"; };
+		18D4C68B228FE4D4004D9360 /* hmac_sha256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac_sha256.h; sourceTree = "<group>"; };
+		18D4C68C228FE4D5004D9360 /* sha256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha256.h; sourceTree = "<group>"; };
+		18D4C68D228FE4D5004D9360 /* sph_sha2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sph_sha2.c; sourceTree = "<group>"; };
+		18D4C68E228FE4D6004D9360 /* chacha20.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chacha20.cpp; sourceTree = "<group>"; };
+		18D4C68F228FE4D6004D9360 /* sha256.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sha256.cpp; sourceTree = "<group>"; };
+		18D4C690228FE4D7004D9360 /* simd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = simd.c; sourceTree = "<group>"; };
+		18D4C691228FE4D7004D9360 /* ripemd160.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ripemd160.h; sourceTree = "<group>"; };
+		18D4C692228FE4D8004D9360 /* sph_shabal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_shabal.h; sourceTree = "<group>"; };
+		18D4C693228FE4D9004D9360 /* aes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aes.cpp; sourceTree = "<group>"; };
+		18D4C694228FE4D9004D9360 /* chacha20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chacha20.h; sourceTree = "<group>"; };
+		18D4C695228FE4DA004D9360 /* sph_groestl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_groestl.h; sourceTree = "<group>"; };
+		18D4C696228FE4DB004D9360 /* sph_fugue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_fugue.h; sourceTree = "<group>"; };
+		18D4C697228FE4DB004D9360 /* sph_luffa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_luffa.h; sourceTree = "<group>"; };
+		18D4C698228FE4DC004D9360 /* blake.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blake.c; sourceTree = "<group>"; };
+		18D4C699228FE4DD004D9360 /* bmw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bmw.c; sourceTree = "<group>"; };
+		18D4C69A228FE4DE004D9360 /* sph_blake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_blake.h; sourceTree = "<group>"; };
+		18D4C69B228FE4DF004D9360 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		18D4C69C228FE4DF004D9360 /* sph_keccak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_keccak.h; sourceTree = "<group>"; };
+		18D4C69D228FE4E0004D9360 /* sph_whirlpool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sph_whirlpool.c; sourceTree = "<group>"; };
+		18D4C69E228FE4E1004D9360 /* sph_whirlpool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_whirlpool.h; sourceTree = "<group>"; };
+		18D4C69F228FE4E2004D9360 /* luffa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = luffa.c; sourceTree = "<group>"; };
+		18D4C6A0228FE4E4004D9360 /* sha512.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha512.h; sourceTree = "<group>"; };
+		18D4C6A1228FE4E5004D9360 /* keccak.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = keccak.c; sourceTree = "<group>"; };
+		18D4C6A2228FE4E6004D9360 /* sph_echo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_echo.h; sourceTree = "<group>"; };
+		18D4C6A3228FE4E7004D9360 /* sph_shavite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_shavite.h; sourceTree = "<group>"; };
+		18D4C6A4228FE4E8004D9360 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		18D4C6A5228FE4E9004D9360 /* sph_simd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_simd.h; sourceTree = "<group>"; };
+		18D4C6A6228FE4EA004D9360 /* sph_bmw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_bmw.h; sourceTree = "<group>"; };
+		18D4C6A7228FE4EB004D9360 /* shavite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shavite.c; sourceTree = "<group>"; };
+		18D4C6A8228FE4EC004D9360 /* sha256_sse4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sha256_sse4.cpp; sourceTree = "<group>"; };
 		220128D11C753C670001CAC1 /* BRSocketHelpers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BRSocketHelpers.c; sourceTree = "<group>"; };
 		220128D21C753C670001CAC1 /* BRSocketHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRSocketHelpers.h; sourceTree = "<group>"; };
 		2204604C1B9F61E600D07B61 /* BREventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREventManager.h; sourceTree = "<group>"; };
@@ -587,19 +669,6 @@
 		FB9CC2701F8E27B80079309F /* DWGenerateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWGenerateViewController.m; sourceTree = "<group>"; };
 		FBF2679F1E414877001A1C8B /* NSString+Dash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Dash.h"; sourceTree = "<group>"; };
 		FBF267A01E414877001A1C8B /* NSString+Dash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Dash.m"; sourceTree = "<group>"; };
-		FBF267A81E414A68001A1C8B /* Blake.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Blake.c; sourceTree = "<group>"; };
-		FBF267AA1E414A68001A1C8B /* Bmw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Bmw.c; sourceTree = "<group>"; };
-		FBF267AC1E414A68001A1C8B /* CubeHash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CubeHash.c; sourceTree = "<group>"; };
-		FBF267AE1E414A68001A1C8B /* Echo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Echo.c; sourceTree = "<group>"; };
-		FBF267B01E414A68001A1C8B /* Groestl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Groestl.c; sourceTree = "<group>"; };
-		FBF267B21E414A68001A1C8B /* Jh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Jh.c; sourceTree = "<group>"; };
-		FBF267B41E414A68001A1C8B /* Keccak.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Keccak.c; sourceTree = "<group>"; };
-		FBF267B61E414A68001A1C8B /* Luffa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Luffa.c; sourceTree = "<group>"; };
-		FBF267B81E414A68001A1C8B /* Shavite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Shavite.c; sourceTree = "<group>"; };
-		FBF267BA1E414A68001A1C8B /* Simd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Simd.c; sourceTree = "<group>"; };
-		FBF267BC1E414A68001A1C8B /* Skein.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Skein.c; sourceTree = "<group>"; };
-		FBF267BD1E414A68001A1C8B /* sph_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sph_types.h; sourceTree = "<group>"; };
-		FBF267BE1E414A68001A1C8B /* aes_helper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aes_helper.c; sourceTree = "<group>"; };
 		FBF267FB1E414AA2001A1C8B /* DSShapeshiftManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSShapeshiftManager.h; sourceTree = "<group>"; };
 		FBF267FC1E414AA2001A1C8B /* DSShapeshiftManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSShapeshiftManager.m; sourceTree = "<group>"; };
 		FBF268021E414B93001A1C8B /* NSData+Dash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Dash.h"; sourceTree = "<group>"; };
@@ -691,6 +760,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18D4C5F5228FE47B004D9360 /* crypto */ = {
+			isa = PBXGroup;
+			children = (
+				18D4C67F228FE4CD004D9360 /* aes_helper.c */,
+				18D4C693228FE4D9004D9360 /* aes.cpp */,
+				18D4C69B228FE4DF004D9360 /* aes.h */,
+				18D4C698228FE4DC004D9360 /* blake.c */,
+				18D4C699228FE4DD004D9360 /* bmw.c */,
+				18D4C68E228FE4D6004D9360 /* chacha20.cpp */,
+				18D4C694228FE4D9004D9360 /* chacha20.h */,
+				18D4C677228FE4C8004D9360 /* common.h */,
+				18D4C67E228FE4CD004D9360 /* cubehash.c */,
+				18D4C681228FE4CE004D9360 /* echo.c */,
+				18D4C684228FE4D0004D9360 /* groestl.c */,
+				18D4C68A228FE4D3004D9360 /* hmac_sha256.cpp */,
+				18D4C68B228FE4D4004D9360 /* hmac_sha256.h */,
+				18D4C674228FE4C6004D9360 /* hmac_sha512.cpp */,
+				18D4C680228FE4CE004D9360 /* hmac_sha512.h */,
+				18D4C67D228FE4CC004D9360 /* jh.c */,
+				18D4C6A1228FE4E5004D9360 /* keccak.c */,
+				18D4C69F228FE4E2004D9360 /* luffa.c */,
+				18D4C682228FE4CF004D9360 /* ripemd160.cpp */,
+				18D4C691228FE4D7004D9360 /* ripemd160.h */,
+				18D4C685228FE4D1004D9360 /* sha1.cpp */,
+				18D4C6A4228FE4E8004D9360 /* sha1.h */,
+				18D4C6A8228FE4EC004D9360 /* sha256_sse4.cpp */,
+				18D4C68F228FE4D6004D9360 /* sha256.cpp */,
+				18D4C68C228FE4D5004D9360 /* sha256.h */,
+				18D4C675228FE4C7004D9360 /* sha512.cpp */,
+				18D4C6A0228FE4E4004D9360 /* sha512.h */,
+				18D4C6A7228FE4EB004D9360 /* shavite.c */,
+				18D4C690228FE4D7004D9360 /* simd.c */,
+				18D4C689228FE4D3004D9360 /* skein.c */,
+				18D4C69A228FE4DE004D9360 /* sph_blake.h */,
+				18D4C6A6228FE4EA004D9360 /* sph_bmw.h */,
+				18D4C687228FE4D2004D9360 /* sph_cubehash.h */,
+				18D4C6A2228FE4E6004D9360 /* sph_echo.h */,
+				18D4C688228FE4D2004D9360 /* sph_fugue.c */,
+				18D4C696228FE4DB004D9360 /* sph_fugue.h */,
+				18D4C695228FE4DA004D9360 /* sph_groestl.h */,
+				18D4C678228FE4C9004D9360 /* sph_hamsi_helper.c */,
+				18D4C67C228FE4CB004D9360 /* sph_hamsi.c */,
+				18D4C676228FE4C7004D9360 /* sph_hamsi.h */,
+				18D4C679228FE4CA004D9360 /* sph_jh.h */,
+				18D4C69C228FE4DF004D9360 /* sph_keccak.h */,
+				18D4C697228FE4DB004D9360 /* sph_luffa.h */,
+				18D4C68D228FE4D5004D9360 /* sph_sha2.c */,
+				18D4C686228FE4D1004D9360 /* sph_sha2.h */,
+				18D4C683228FE4CF004D9360 /* sph_sha512.c */,
+				18D4C673228FE4C5004D9360 /* sph_shabal.c */,
+				18D4C692228FE4D8004D9360 /* sph_shabal.h */,
+				18D4C6A3228FE4E7004D9360 /* sph_shavite.h */,
+				18D4C6A5228FE4E9004D9360 /* sph_simd.h */,
+				18D4C67A228FE4CA004D9360 /* sph_skein.h */,
+				18D4C67B228FE4CB004D9360 /* sph_types.h */,
+				18D4C69D228FE4E0004D9360 /* sph_whirlpool.c */,
+				18D4C69E228FE4E1004D9360 /* sph_whirlpool.h */,
+			);
+			path = crypto;
+			sourceTree = "<group>";
+		};
 		2AC92C811FEB0A32008CAEE0 /* Scan */ = {
 			isa = PBXGroup;
 			children = (
@@ -990,7 +1120,7 @@
 		75D5F3C7191EC270004AB296 /* DashWallet */ = {
 			isa = PBXGroup;
 			children = (
-				FBF267A61E414A58001A1C8B /* x11 */,
+				18D4C5F5228FE47B004D9360 /* crypto */,
 				BAC7B6BF1BD9C2B500165B84 /* AppleWatch */,
 				752E289C19234A4700DB5A3C /* Models */,
 				752E289B19234A3F00DB5A3C /* Views */,
@@ -1145,26 +1275,6 @@
 				FB43BC71211B8A5E00BC9879 /* DWActionTableViewCell.m */,
 			);
 			name = Cells;
-			sourceTree = "<group>";
-		};
-		FBF267A61E414A58001A1C8B /* x11 */ = {
-			isa = PBXGroup;
-			children = (
-				FBF267A81E414A68001A1C8B /* Blake.c */,
-				FBF267AA1E414A68001A1C8B /* Bmw.c */,
-				FBF267AC1E414A68001A1C8B /* CubeHash.c */,
-				FBF267AE1E414A68001A1C8B /* Echo.c */,
-				FBF267B01E414A68001A1C8B /* Groestl.c */,
-				FBF267B21E414A68001A1C8B /* Jh.c */,
-				FBF267B41E414A68001A1C8B /* Keccak.c */,
-				FBF267B61E414A68001A1C8B /* Luffa.c */,
-				FBF267B81E414A68001A1C8B /* Shavite.c */,
-				FBF267BA1E414A68001A1C8B /* Simd.c */,
-				FBF267BC1E414A68001A1C8B /* Skein.c */,
-				FBF267BD1E414A68001A1C8B /* sph_types.h */,
-				FBF267BE1E414A68001A1C8B /* aes_helper.c */,
-			);
-			name = x11;
 			sourceTree = "<group>";
 		};
 		FBF268101E42A639001A1C8B /* Dash */ = {
@@ -1394,7 +1504,7 @@
 				};
 			};
 			buildConfigurationList = 75D5F3B9191EC270004AB296 /* Build configuration list for PBXProject "DashWallet" */;
-			compatibilityVersion = "Xcode 8.0";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -1596,32 +1706,44 @@
 				22F04A001C9714EF00F137D8 /* BRUserDefaultsSwitchCell.m in Sources */,
 				752E28AA19234AE300DB5A3C /* BRAddressEntity.m in Sources */,
 				75AA5F55194143D5003F23BD /* BRBouncyBurgerButton.m in Sources */,
+				18D4C6C4228FE4EC004D9360 /* sha256_sse4.cpp in Sources */,
 				752E28AB19234AE300DB5A3C /* BRMerkleBlockEntity.m in Sources */,
+				18D4C6B4228FE4EC004D9360 /* groestl.c in Sources */,
+				18D4C6AA228FE4EC004D9360 /* hmac_sha512.cpp in Sources */,
 				BA7B53501BDA9A2800355E8D /* BRAppleWatchData.m in Sources */,
 				752E28AC19234AE300DB5A3C /* BRPeerEntity.m in Sources */,
 				FBF2680E1E419318001A1C8B /* DSShapeshiftEntity+CoreDataClass.m in Sources */,
 				FBF268041E414B93001A1C8B /* NSData+Dash.m in Sources */,
+				18D4C6BD228FE4EC004D9360 /* aes.cpp in Sources */,
 				FB43BC7E211D6AD000BC9879 /* DWShareActionButton.m in Sources */,
 				752E28AD19234AE300DB5A3C /* BRTransactionEntity.m in Sources */,
 				752E28AE19234AE300DB5A3C /* BRTxInputEntity.m in Sources */,
 				752E28AF19234AE300DB5A3C /* BRTxOutputEntity.m in Sources */,
 				FBFC2E9C211378CD00D20C57 /* UIFont+SystemFontOverride.m in Sources */,
+				18D4C6BA228FE4EC004D9360 /* chacha20.cpp in Sources */,
 				22DE8CF11D02407F007F07F3 /* BRWalletConstants.m in Sources */,
 				FBF2680F1E419318001A1C8B /* DSShapeshiftEntity+CoreDataProperties.m in Sources */,
 				FB43BC7B211CE0F800BC9879 /* DWWhiteActionButton.m in Sources */,
 				BAA4843C1B3EFFAF0075C749 /* UIImage+Utils.m in Sources */,
+				18D4C6BC228FE4EC004D9360 /* simd.c in Sources */,
 				BA7B535C1BDBC36700355E8D /* BRTransaction+Utils.m in Sources */,
+				18D4C6B3228FE4EC004D9360 /* sph_sha512.c in Sources */,
+				18D4C6C0228FE4EC004D9360 /* sph_whirlpool.c in Sources */,
 				758DBD0E1980634900389E2A /* BRTxDetailViewController.m in Sources */,
 				FB021E4F1E42EB5F00D17638 /* NSAttributedString+Attachments.m in Sources */,
 				7548CF3719556FD700EF827F /* BRCopyLabel.m in Sources */,
 				2AC92C8A1FEB0B8B008CAEE0 /* BRQRScanViewModel.m in Sources */,
+				18D4C6B9228FE4EC004D9360 /* sph_sha2.c in Sources */,
 				752E28D119234C3600DB5A3C /* BRKey.m in Sources */,
 				84F68C8A1975E9E2002FC300 /* BRScanViewController.m in Sources */,
 				FB43BC78211CD15500BC9879 /* DWBlueActionButton.m in Sources */,
 				2204604E1B9F61E600D07B61 /* BREventManager.m in Sources */,
+				18D4C6A9228FE4EC004D9360 /* sph_shabal.c in Sources */,
 				FBF267FD1E414AA2001A1C8B /* DSShapeshiftManager.m in Sources */,
 				752E28D219234C3600DB5A3C /* BRKey+BIP38.m in Sources */,
 				220460551BA0BEEE00D07B61 /* BREventConfirmView.m in Sources */,
+				18D4C6B1228FE4EC004D9360 /* echo.c in Sources */,
+				18D4C6B6228FE4EC004D9360 /* sph_fugue.c in Sources */,
 				752E28D919234C3600DB5A3C /* BRTransaction.m in Sources */,
 				752E28CE19234C3600DB5A3C /* BRBIP32Sequence.m in Sources */,
 				BAC7B6BE1BD9C29900165B84 /* BRPhoneWCSessionManager.m in Sources */,
@@ -1633,6 +1755,7 @@
 				752E28D019234C3600DB5A3C /* BRBloomFilter.m in Sources */,
 				752E28D619234C3600DB5A3C /* BRPeer.m in Sources */,
 				752E28D819234C3600DB5A3C /* BRPeerManager.m in Sources */,
+				18D4C6B7228FE4EC004D9360 /* skein.c in Sources */,
 				FB43BC72211B8A5E00BC9879 /* DWActionTableViewCell.m in Sources */,
 				752E28D419234C3600DB5A3C /* BRPaymentProtocol.m in Sources */,
 				752E28D519234C3600DB5A3C /* BRPaymentRequest.m in Sources */,
@@ -1641,32 +1764,47 @@
 				75878BC1192AEC3F002505AB /* BRReceiveViewController.m in Sources */,
 				75878BBF192ACD46002505AB /* BRAmountViewController.m in Sources */,
 				759816E719357D6F005060EA /* BRBubbleView.m in Sources */,
+				18D4C6AC228FE4EC004D9360 /* sph_hamsi_helper.c in Sources */,
 				757BE7E3192C0E9D0061CB20 /* BRRestoreViewController.m in Sources */,
+				18D4C6B8228FE4EC004D9360 /* hmac_sha256.cpp in Sources */,
 				757BE7E6192C1FF70061CB20 /* BRWelcomeViewController.m in Sources */,
+				18D4C6BB228FE4EC004D9360 /* sha256.cpp in Sources */,
 				757BE7E9192D4E880061CB20 /* BRSeedViewController.m in Sources */,
 				752E28E719234DA200DB5A3C /* NSData+Bitcoin.m in Sources */,
+				18D4C6AE228FE4EC004D9360 /* jh.c in Sources */,
+				18D4C6AF228FE4EC004D9360 /* cubehash.c in Sources */,
+				18D4C6C3228FE4EC004D9360 /* shavite.c in Sources */,
+				18D4C6AB228FE4EC004D9360 /* sha512.cpp in Sources */,
+				18D4C6BF228FE4EC004D9360 /* bmw.c in Sources */,
 				FB43BC75211CC68E00BC9879 /* DWNumberButton.m in Sources */,
 				2AC92C841FEB0A6D008CAEE0 /* BRQRScanViewController.m in Sources */,
 				FB9CC2711F8E27B80079309F /* DWGenerateViewController.m in Sources */,
 				220128D31C753C670001CAC1 /* BRSocketHelpers.c in Sources */,
 				752E28E919234DA200DB5A3C /* NSManagedObject+Sugar.m in Sources */,
+				18D4C6AD228FE4EC004D9360 /* sph_hamsi.c in Sources */,
 				BA7B53541BDAA0A800355E8D /* BRAppleWatchTransactionData.m in Sources */,
 				FB021E571E47E17200D17638 /* FBShimmeringView.m in Sources */,
 				FBF267A11E414877001A1C8B /* NSString+Dash.m in Sources */,
 				FB021E5B1E4DEFE800D17638 /* MBProgressHUD.m in Sources */,
 				FBFC2EFB211413EB00D20C57 /* DWWarningViewController.m in Sources */,
 				751B2B5C1B68911700EA87FB /* BRTxHistoryViewController.m in Sources */,
+				18D4C6C2228FE4EC004D9360 /* keccak.c in Sources */,
 				2AC92C871FEB0AE8008CAEE0 /* BRQRScanView.m in Sources */,
 				752E28EA19234DA200DB5A3C /* NSMutableData+Bitcoin.m in Sources */,
 				752E28EB19234DA200DB5A3C /* NSString+Bitcoin.m in Sources */,
 				757C89521A2FCE420076B373 /* BRSettingsViewController.m in Sources */,
 				FB43BC81211D96C600BC9879 /* DWTransactionTableViewCell.m in Sources */,
 				75D5F3D2191EC270004AB296 /* BRAppDelegate.m in Sources */,
+				18D4C6BE228FE4EC004D9360 /* blake.c in Sources */,
+				18D4C6C1228FE4EC004D9360 /* luffa.c in Sources */,
 				759FBB36193290F600AB4465 /* BRRootViewController.m in Sources */,
+				18D4C6B0228FE4EC004D9360 /* aes_helper.c in Sources */,
 				752E289A192349CE00DB5A3C /* DashWallet.xcdatamodeld in Sources */,
 				759FBB37193290F600AB4465 /* BRSendViewController.m in Sources */,
 				752E28F119234E8100DB5A3C /* Reachability.m in Sources */,
+				18D4C6B2228FE4EC004D9360 /* ripemd160.cpp in Sources */,
 				75D5F3CE191EC270004AB296 /* main.m in Sources */,
+				18D4C6B5228FE4EC004D9360 /* sha1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1894,7 +2032,11 @@
 				CODE_SIGN_ENTITLEMENTS = dashwallet/dashwallet.entitlements;
 				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				INFOPLIST_FILE = DashWalletUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.dashfoundation.DashWalletUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DashWalletUITests/DashWalletUITests-Bridging-Header.h";
@@ -1909,7 +2051,11 @@
 				CODE_SIGN_ENTITLEMENTS = dashwallet/dashwallet.entitlements;
 				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				INFOPLIST_FILE = DashWalletUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.dashfoundation.DashWalletUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DashWalletUITests/DashWalletUITests-Bridging-Header.h";
@@ -1962,7 +2108,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -2024,7 +2170,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -2040,7 +2186,8 @@
 					"-Wno-gnu",
 				);
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
@@ -2059,7 +2206,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 44RJ69WHFF;
+				DEVELOPMENT_TEAM = U76XKD27AZ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DashWallet/DashWallet-Prefix.pch";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
@@ -2069,8 +2216,11 @@
 					"$(SRCROOT)",
 				);
 				INFOPLIST_FILE = DashWallet/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.dashfoundation.dash;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.das111hfoundation.dash22;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2090,7 +2240,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 44RJ69WHFF;
+				DEVELOPMENT_TEAM = U76XKD27AZ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DashWallet/DashWallet-Prefix.pch";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
@@ -2100,8 +2250,11 @@
 					"$(SRCROOT)",
 				);
 				INFOPLIST_FILE = DashWallet/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.dashfoundation.dash;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.das111hfoundation.dash22;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -2119,7 +2272,11 @@
 				GCC_PREFIX_HEADER = "DashWallet/DashWallet-Prefix.pch";
 				GCC_WARN_PEDANTIC = NO;
 				INFOPLIST_FILE = DashWalletTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.dashfoundation.dash.TodayExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DashWalletTests/DashWalletTests-Bridging-Header.h";
@@ -2136,7 +2293,11 @@
 				GCC_PREFIX_HEADER = "DashWallet/DashWallet-Prefix.pch";
 				GCC_WARN_PEDANTIC = NO;
 				INFOPLIST_FILE = DashWalletTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.dashfoundation.dash.TodayExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DashWalletTests/DashWalletTests-Bridging-Header.h";
@@ -2187,7 +2348,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				INFOPLIST_FILE = "WatchApp Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.dashfoundation.dash.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
@@ -2205,7 +2370,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				INFOPLIST_FILE = "WatchApp Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.dashfoundation.dash.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
@@ -2227,7 +2396,11 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = TodayExtension/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.dashfoundation.dash.TodayExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -2249,7 +2422,11 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = TodayExtension/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.dashfoundation.dash.TodayExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -2288,7 +2465,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = "TESTFLIGHT=1";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
@@ -2306,7 +2483,8 @@
 				);
 				OTHER_SWIFT_FLAGS = "-DTestflight";
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
@@ -2325,7 +2503,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 44RJ69WHFF;
+				DEVELOPMENT_TEAM = U76XKD27AZ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DashWallet/DashWallet-Prefix.pch";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
@@ -2335,8 +2513,11 @@
 					"$(SRCROOT)",
 				);
 				INFOPLIST_FILE = DashWallet/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.dashfoundation.dash;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.das111hfoundation.dash22;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -2358,7 +2539,11 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = TodayExtension/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.dashfoundation.dash.TodayExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -2376,7 +2561,11 @@
 				GCC_PREFIX_HEADER = "DashWallet/DashWallet-Prefix.pch";
 				GCC_WARN_PEDANTIC = NO;
 				INFOPLIST_FILE = DashWalletTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.dashfoundation.dash.TodayExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DashWalletTests/DashWalletTests-Bridging-Header.h";
@@ -2390,7 +2579,11 @@
 				CODE_SIGN_ENTITLEMENTS = dashwallet/dashwallet.entitlements;
 				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				INFOPLIST_FILE = DashWalletUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.dashfoundation.DashWalletUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DashWalletUITests/DashWalletUITests-Bridging-Header.h";
@@ -2432,7 +2625,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				INFOPLIST_FILE = "WatchApp Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.dashfoundation.dash.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
@@ -2473,7 +2670,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -2516,7 +2713,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 44RJ69WHFF;
+				DEVELOPMENT_TEAM = U76XKD27AZ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DashWallet/DashWallet-Prefix.pch";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
@@ -2526,8 +2723,11 @@
 					"$(SRCROOT)",
 				);
 				INFOPLIST_FILE = DashWallet/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.dashfoundation.dash;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.das111hfoundation.dash22;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -2547,7 +2747,11 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = TodayExtension/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.dashfoundation.dash.TodayExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -2565,7 +2769,11 @@
 				GCC_PREFIX_HEADER = "DashWallet/DashWallet-Prefix.pch";
 				GCC_WARN_PEDANTIC = NO;
 				INFOPLIST_FILE = DashWalletTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.dashfoundation.dash.TodayExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DashWalletTests/DashWalletTests-Bridging-Header.h";
@@ -2579,7 +2787,11 @@
 				CODE_SIGN_ENTITLEMENTS = dashwallet/dashwallet.entitlements;
 				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				INFOPLIST_FILE = DashWalletUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.dashfoundation.DashWalletUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DashWalletUITests/DashWalletUITests-Bridging-Header.h";
@@ -2619,7 +2831,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 44RJ69WHFF;
 				INFOPLIST_FILE = "WatchApp Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.dashfoundation.dash.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
